@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "krishak-app",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

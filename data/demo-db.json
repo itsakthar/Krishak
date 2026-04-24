@@ -1,0 +1,223 @@
+{
+  "users": [
+    {
+      "id": "seller-rina",
+      "name": "Rina Mondal",
+      "mobile": "9876543210",
+      "bio": "Vegetable grower from Nadia.",
+      "photoUrl": "",
+      "preferences": {
+        "language": "en",
+        "hasSelectedLanguage": true
+      },
+      "createdAt": "2026-04-20T08:00:00.000Z",
+      "passwordHash": "",
+      "passwordSalt": ""
+    },
+    {
+      "id": "seller-arun",
+      "name": "Arun Yadav",
+      "mobile": "9123456780",
+      "bio": "Rice and wheat farmer.",
+      "photoUrl": "",
+      "preferences": {
+        "language": "hi",
+        "hasSelectedLanguage": true
+      },
+      "createdAt": "2026-04-21T08:00:00.000Z",
+      "passwordHash": "",
+      "passwordSalt": ""
+    },
+    {
+      "id": "user-ffec7fda-7aed-421c-8acb-ed5d919638f5",
+      "name": "Shamim Akthar",
+      "mobile": "8016766346",
+      "bio": "",
+      "photoUrl": "",
+      "preferences": {
+        "language": "en",
+        "hasSelectedLanguage": true
+      },
+      "createdAt": "2026-04-24T04:49:54.777Z",
+      "passwordHash": "f9afc51337a610c6c7b2297c9489054b4f030aa0091ab3d68e309781c62342a395dd05547cfcd7c7383ee643006a79b1fb08783f94a8e3a9918d16c488fb962d",
+      "passwordSalt": "f0d6a650fd0e066d84981bfd96376ab2"
+    }
+  ],
+  "products": [
+    {
+      "id": "product-9c8a8b75-4868-4dce-9013-a3a5f8caa784",
+      "sellerId": "user-ffec7fda-7aed-421c-8acb-ed5d919638f5",
+      "sellerName": "Shamim Akthar",
+      "sellerPhone": "8016766346",
+      "name": "Dhan",
+      "imageUrl": "/images/okra.svg",
+      "price": 789,
+      "quantityValue": 100,
+      "unit": "kg",
+      "location": "maslandapur",
+      "description": "",
+      "status": "approved",
+      "createdAt": "2026-04-24T04:52:43.468Z"
+    },
+    {
+      "id": "prod-okra",
+      "sellerId": "seller-rina",
+      "sellerName": "Rina Mondal",
+      "sellerPhone": "9876543210",
+      "name": "Fresh Okra",
+      "imageUrl": "/images/okra.svg",
+      "price": 38,
+      "quantityValue": 120,
+      "unit": "kg",
+      "location": "Krishnanagar, Nadia",
+      "description": "Freshly harvested okra packed for same-day pickup.",
+      "status": "approved",
+      "createdAt": "2026-04-22T05:30:00.000Z"
+    },
+    {
+      "id": "prod-rice",
+      "sellerId": "seller-arun",
+      "sellerName": "Arun Yadav",
+      "sellerPhone": "9123456780",
+      "name": "Paddy Rice",
+      "imageUrl": "/images/rice.svg",
+      "price": 2400,
+      "quantityValue": 15,
+      "unit": "quintal",
+      "location": "Lucknow Rural",
+      "description": "High quality paddy ready for bulk purchase.",
+      "status": "approved",
+      "createdAt": "2026-04-22T07:00:00.000Z"
+    },
+    {
+      "id": "prod-tomato",
+      "sellerId": "seller-rina",
+      "sellerName": "Rina Mondal",
+      "sellerPhone": "9876543210",
+      "name": "Hybrid Tomato",
+      "imageUrl": "/images/tomato.svg",
+      "price": 26,
+      "quantityValue": 200,
+      "unit": "kg",
+      "location": "Ranaghat",
+      "description": "Red tomatoes suitable for retail and mandi sale.",
+      "status": "approved",
+      "createdAt": "2026-04-23T06:45:00.000Z"
+    }
+  ],
+  "labourers": [
+    {
+      "id": "labour-gopal",
+      "userId": "labour-gopal",
+      "name": "Gopal Das",
+      "phone": "9000000001",
+      "pricePerDay": 950,
+      "location": "Bardhaman",
+      "status": "approved",
+      "createdAt": "2026-04-22T06:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-50901a85-3929-4c5f-8f44-c4d4dfc9da25",
+      "type": "product",
+      "targetId": "prod-okra",
+      "title": "Fresh Okra",
+      "buyerId": "user-ffec7fda-7aed-421c-8acb-ed5d919638f5",
+      "sellerId": "seller-rina",
+      "buyerName": "Shamim Akthar",
+      "sellerName": "Rina Mondal",
+      "sellerPhone": "9876543210",
+      "status": "confirmed",
+      "createdAt": "2026-04-24T04:51:07.232Z"
+    },
+    {
+      "id": "order-1",
+      "type": "product",
+      "targetId": "prod-okra",
+      "title": "Fresh Okra",
+      "buyerId": "seed-buyer",
+      "sellerId": "seller-rina",
+      "buyerName": "Demo Buyer",
+      "sellerName": "Rina Mondal",
+      "sellerPhone": "9876543210",
+      "status": "confirmed",
+      "createdAt": "2026-04-22T10:00:00.000Z"
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat-5c927988-02ed-42d5-a670-360574bacf11",
+      "title": "Fresh Okra enquiry",
+      "type": "product",
+      "targetId": "prod-okra",
+      "buyerId": "user-ffec7fda-7aed-421c-8acb-ed5d919638f5",
+      "sellerId": "seller-rina",
+      "buyerName": "Shamim Akthar",
+      "sellerName": "Rina Mondal",
+      "lastMessage": "hi",
+      "lastMessageAt": "2026-04-24T04:51:21.485Z",
+      "messages": [
+        {
+          "id": "msg-dbf662b8-1c59-4f35-b237-b29509661f98",
+          "senderId": "user-ffec7fda-7aed-421c-8acb-ed5d919638f5",
+          "senderName": "Shamim Akthar",
+          "text": "Namaste, I would like to discuss this listing.",
+          "createdAt": "2026-04-24T04:51:07.232Z"
+        },
+        {
+          "id": "msg-f8b0b11a-d0c5-4b2a-b566-9429d48883d4",
+          "senderId": "user-ffec7fda-7aed-421c-8acb-ed5d919638f5",
+          "senderName": "Shamim Akthar",
+          "text": "hi",
+          "createdAt": "2026-04-24T04:51:21.485Z"
+        }
+      ]
+    },
+    {
+      "id": "chat-okra",
+      "title": "Fresh Okra enquiry",
+      "type": "product",
+      "targetId": "prod-okra",
+      "buyerId": "seed-buyer",
+      "sellerId": "seller-rina",
+      "buyerName": "Demo Buyer",
+      "sellerName": "Rina Mondal",
+      "lastMessage": "Can you deliver tomorrow morning?",
+      "lastMessageAt": "2026-04-22T10:15:00.000Z",
+      "messages": [
+        {
+          "id": "msg-1",
+          "senderId": "seed-buyer",
+          "senderName": "Demo Buyer",
+          "text": "Can you deliver tomorrow morning?",
+          "createdAt": "2026-04-22T10:15:00.000Z"
+        }
+      ]
+    }
+  ],
+  "admin": {
+    "uiSettings": {
+      "primaryColor": "#16a34a",
+      "backgroundTone": "#f6fff5",
+      "surfaceTone": "#ffffff",
+      "heroTitle": "Krishak helps farmers buy, sell, and hire quickly.",
+      "heroSubtitle": "Fast, mobile-first, and simple enough for daily village use."
+    },
+    "sessions": [
+      {
+        "id": "86093415-d7ce-4a0f-8b37-27bc8571cc38",
+        "userId": "admin",
+        "tokenHash": "50cbfd22a79b88762dc8131aef9fd7b577b0dbc6333404b8f6ed7848eafca3f3",
+        "createdAt": "2026-04-24T06:48:37.247Z"
+      },
+      {
+        "id": "bdc71e71-6749-4f19-ba8a-3af9596be14e",
+        "userId": "admin",
+        "tokenHash": "906fc34d694f598f03f133f86e24e2b3fcf976b401a9d888d42e7a1474016d5f",
+        "createdAt": "2026-04-24T13:31:02.661Z"
+      }
+    ]
+  },
+  "sessions": []
+}
